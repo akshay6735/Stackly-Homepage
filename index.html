@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stackly — Money, with momentum</title>
+<meta name="description" content="Stackly is a finance experience concept for savings, spending insights, transfers and portfolio views.">
+<meta name="theme-color" content="#101020">
+<link rel="icon" type="image/png" href="assets/stackly-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ee0a8"/><stop offset="1" stop-color="#1f9fb0"/></linearGradient><linearGradient id="gb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f9fb0"/><stop offset="1" stop-color="#2f6fa8"/></linearGradient></defs></svg>
+<div id="pre" role="status" aria-label="Loading Stackly">
+  <div class="pre-orbit"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><img src="assets/stackly-original.png" alt="Stackly" class="prelogo"></div>
+  <p class="pre-kicker">YOUR MONEY. IN MOTION.</p>
+  <div class="pre-progress"><span class="pre-progress-fill"></span></div>
+  <div class="pre-meta"><span>Preparing your workspace</span><strong id="loadpct">00%</strong></div>
+</div>
+<div id="cur"></div><div id="sp"></div>
+<header id="hd"><div class="bar"><a href="#/" class="logo" aria-label="Stackly home"></a>
+<button id="hb" aria-label="Open menu" aria-expanded="false" aria-controls="pn"><span></span><span></span></button>
+<div id="pn"><nav id="nv"></nav><div class="au"><a class="btn" href="#/login">Log in</a><a class="btn p" href="#/signup">Get started</a></div></div></div></header>
+<main id="app"></main><div id="foot"></div><div id="toast" role="status"></div>
+<script src="js/app.js" defer></script>
+</body>
+</html>

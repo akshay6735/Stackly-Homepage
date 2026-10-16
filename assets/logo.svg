@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Stackly">
+<defs><linearGradient id="g" x1="7" y1="8" x2="57" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#80f0c3"/><stop offset=".52" stop-color="#37c5c7"/><stop offset="1" stop-color="#388bc4"/></linearGradient></defs>
+<rect width="64" height="64" rx="19" fill="#09242c"/>
+<path d="M43 17c-4-4-10-5-15-2-6 3-7 9-2 13 3 2 8 3 12 5 6 3 5 10-2 14-6 3-13 1-18-3" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 48 47 16" fill="none" stroke="#e8fff8" stroke-opacity=".9" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
